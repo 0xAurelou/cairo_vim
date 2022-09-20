@@ -1,4 +1,4 @@
-# cairo_v0.10_syntax
+# Cairo Vim
 Vim Syntax for cairo v0.10
 
 Just copy paste this in your ~/.vim/syntax/cairo.vim
