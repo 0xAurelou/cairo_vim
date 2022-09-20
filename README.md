@@ -3,7 +3,7 @@ Vim Syntax for cairo v0.10
 
 Just copy paste this in your ~/.vim/syntax/cairo.vim
 
-Be sure you have this files in your .vimrc
+Be sure you have this lines in your .vimrc
 
 ```vim
 "Add Cairo Support
@@ -35,7 +35,7 @@ For that we do ``cd ~/.vim/bundle/coc.nvim && yarn install``
 
 Congrats you finish to install coc but it's not finish we still need to customize it for cairo
 
-Open vim and tap ``CocInstall coc-cairo `` wait for the download to be finish
+Open vim and tap ``:CocInstall coc-cairo`` wait for the download to be finish
 and boom You have Coc for cairo
 
 # Useful line to have in your vimrc 
