@@ -37,3 +37,15 @@ Congrats you finish to install coc but it's not finish we still need to customiz
 
 Open vim and tap ``CocInstall coc-cairo `` wait for the download to be finish
 and boom You have Coc for cairo
+
+# Useful line to have in your vimrc 
+
+```vim
+" This snippet will help you to have a autocomplete workflow like in vscode or intellij
+
+inoremap <silent><expr> <tab> coc#pum#visible() ? coc#pum#next(1) : "\<C-n>"
+inoremap <silent><expr> <down> coc#pum#visible() ? coc#pum#next(0) : "\<down>"
+inoremap <silent><expr> <up> coc#pum#visible() ? coc#pum#prev(0) : "\<up>"
+
+inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+```
