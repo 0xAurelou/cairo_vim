@@ -1,6 +1,8 @@
 # Cairo Vim
 Vim Syntax for cairo v0.10
 
+## Deprecated ⚠️
+
 Just copy paste this in your ~/.vim/syntax/cairo.vim
 
 Be sure you have this lines in your .vimrc
